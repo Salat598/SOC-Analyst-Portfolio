@@ -1,27 +1,53 @@
-# SOC-Analyst-Portfolio
+# SOC Analyst Home Lab
 
-Welcome to my SOC Analyst Portfolio.
+## Overview
 
-This repository contains hands-on SOC Analyst lab investigations covering incident response, log analysis, threat hunting and MITRE ATT&amp;CK mapping that I completed as part of my cybersecurity learning journey.
+This repository documents my journey of building a Security Operations Center (SOC) home lab from scratch and performing hands-on blue team investigations.
 
-The projects simulate real-world Security Operations Center (SOC) scenarios, including:
+The objective of this lab is to gain practical experience in:
 
-- Brute Force Investigations
-- Phishing Analysis
-- Malware Investigations
-- Windows Event Log Analysis
-- Threat Hunting
-- Splunk Investigations
-- MITRE ATT&CK Mapping
-- Incident Reporting
+- Windows Security Event Log analysis
+- Sysmon log analysis
+- Incident response
+- Threat hunting
+- Network analysis
+- MITRE ATT&CK mapping
+- Detection engineering
+- SIEM investigations
 
-Each project includes:
+The lab is built using Oracle VirtualBox and consists of a Windows endpoint and a Kali Linux attack workstation connected through an isolated internal network.
 
-- Incident Summary
-- Investigation Process
-- Evidence Collected
-- MITRE ATT&CK Techniques
-- Containment Recommendations
-- Lessons Learned
+## Lab Components
 
-These scenarios are for educational purposes and demonstrate my analytical and incident response skills.
+- Windows 10 Home
+- Kali Linux
+- Sysmon
+- OpenSSH Server
+- Windows Event Viewer
+- VirtualBox
+- Internal Network
+- NAT Networking
+
+## Projects
+
+| Project | Status |
+|---------|---------|
+| Building the SOC Lab | ✅ Completed |
+| Windows SSH Brute Force Investigation | ✅ Completed |
+| Process Creation Investigation | Coming Soon |
+| PowerShell Threat Hunting | Coming Soon |
+| Registry Persistence Detection | Coming Soon |
+| SIEM Integration | Coming Soon |
+
+## Skills Demonstrated
+
+- Virtualization
+- Windows Administration
+- Network Configuration
+- SSH Configuration
+- Windows Security Logging
+- Event Viewer Analysis
+- Incident Response
+- Log Correlation
+- Threat Detection
+
