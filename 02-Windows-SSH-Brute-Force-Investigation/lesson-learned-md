@@ -1,0 +1,13 @@
+# Lessons Learned
+
+This project provided practical experience in investigating Windows authentication events within a controlled SOC home lab.
+
+Key takeaways include:
+
+- Understanding the purpose of Event ID 4625 (failed logon) and Event ID 4624 (successful logon).
+- Learning how to interpret authentication fields such as `TargetUserName`, `LogonType`, `Status`, `SubStatus`, and `ProcessName`.
+- Recognizing how multiple failed logins followed by a successful login can indicate password guessing or brute-force activity.
+- Practicing evidence collection using Event Viewer and exported Windows Security logs.
+- Developing professional incident documentation and recommendations based on observed evidence.
+
+This project strengthened my understanding of Windows authentication monitoring and the workflow followed by a Tier 1 SOC Analyst during an initial incident investigation.
