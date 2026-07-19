@@ -1,0 +1,31 @@
+# SOC Lab Architecture
+
+Internet
+
+↓
+
+VirtualBox NAT
+
+↓
+
+Windows 10 VM
+
+10.0.2.15
+
+↓
+
+Internal Network
+
+SOC-LAB
+
+↓
+
+Windows
+
+192.168.56.20
+
+↓
+
+Kali Linux
+
+192.168.56.10
